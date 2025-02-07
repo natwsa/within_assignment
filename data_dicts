@@ -1,0 +1,33 @@
+#Obtained from scraping public PATH data
+stations = {
+    'Newark': (-74.1724, 40.7357, ['NJ Transit', 'Amtrak', 'Bus'], ['Harrison'], ['Red', 'Orange']),
+    'Harrison': (-74.1557, 40.7465, ['NJ Transit', 'Bus'], ['Newark', 'Journal Square'], ['Red', 'Orange']),
+    'Journal Square': (-74.0631, 40.7322, ['Bus'], ['Harrison', 'Grove Street'], ['Red', 'Orange']),
+    'Grove Street': (-74.0413, 40.7196, ['Bus'], ['Journal Square', 'Exchange Place'], ['Red', 'Green']),
+    'Exchange Place': (-74.0327, 40.7166, ['Ferry', 'Bus'], ['Grove Street', 'World Trade Center', 'Newport'], ['Red', 'Green']),
+    'Newport': (-74.0384, 40.7269, ['Light Rail', 'Bus'], ['Hoboken', 'Exchange Place', 'Grove Street'], ['Green', 'Orange']),
+    'Hoboken': (-74.0321, 40.7359, ['NJ Transit', 'Amtrak', 'Ferry', 'Bus'], ['Newport', '33rd Street'], ['Green', 'Orange']),
+    'World Trade Center': (-74.0121, 40.7115, ['NYC Subway', 'Bus'], ['Exchange Place'], ['Red']),
+    'Christopher Street': (-74.0048, 40.7328, ['NYC Subway', 'Bus'], ['9th Street'], ['Green']),
+    '9th Street': (-73.9981, 40.7349, ['NYC Subway', 'Bus'], ['Christopher Street', '14th Street'], ['Green']),
+    '14th Street': (-73.9962, 40.7379, ['NYC Subway', 'Bus'], ['9th Street', '23rd Street'], ['Green']),
+    '23rd Street': (-73.9950, 40.7428, ['NYC Subway', 'Bus'], ['14th Street', '33rd Street'], ['Green']),
+    '33rd Street': (-73.9879, 40.7488, ['NYC Subway', 'Bus'], ['23rd Street', 'Hoboken'], ['Green', 'Orange'])
+}
+
+#Average daily riders per weekday, 2024 
+daily_riders = {
+    'Christopher Street': 3147,
+    '9th Street': 2792,
+    '14th Street': 4834,
+    '23rd Street': 5033,
+    '33rd Street': 19543,
+    'Newark': 14267,
+    'Harrison': 5417,
+    'Journal Square': 18174,
+    'Grove Street': 14545,
+    'Exchange Place': 10112,
+    'Newport': 10678,
+    'Hoboken': 15943,
+    'World Trade Center': 37278
+}
